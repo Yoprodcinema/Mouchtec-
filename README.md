@@ -1,21 +1,11 @@
-# Mouchtec — première proposition
+# Mouchtec — expérience interactive
 
-Site statique en français : HTML, CSS et JavaScript, sans dépendance à installer.
+Site statique français, sans dépendance : paysage alpin réactif au pointeur, neige animée, terrain de dessin à deux traces, illustration du virage télémark pilotée par un curseur. Les animations automatiques peuvent être désactivées et respectent la préférence de mouvement réduit.
 
-## Démarrage
+Démarrage : `python3 -m http.server 8000 --bind 0.0.0.0` depuis le dossier du dépôt. GitHub Pages : branche main, dossier racine.
 
-Depuis `/workspace/Mouchtec-` :
+Le terrain utilise le pointeur ou le tactile ; les boutons permettent de montrer ou effacer une trace. Sur mobile, défiler hors du terrain. Le curseur de virage fonctionne aussi au clavier.
 
-```sh
-python3 -m http.server 8000 --bind 0.0.0.0
-```
+Les textes sont des propositions, le visuel alpin est généré. Les contacts, rendez-vous et informations historiques officiels restent à intégrer. Le lien du club renvoie vers le site existant.
 
-## Contenus
-
-La direction artistique est alpine et cinématographique. Le visuel est une création générée, pas une photo du club. Les textes sont des propositions éditoriales. L’histoire officielle, les événements, les coordonnées et les modalités d’adhésion restent à intégrer : le site existant n’était pas accessible depuis l’environnement de travail.
-
-Le bouton d’adhésion ouvre une information provisoire et un lien vers le site actuel ; aucun formulaire ni traitement de données n’est connecté.
-
-## Validation
-
-Affichage desktop et mobile (390 px), absence de débordement horizontal, navigation vers les chapitres, ouverture et fermeture de la fenêtre de contact, et absence d’erreurs JavaScript vérifiés avec Chromium et Playwright.
+Validation Chromium : dessin, démonstration, effacement, curseur clavier, désactivation du mouvement, mouvement réduit et absence de débordement horizontal à 390 px.
